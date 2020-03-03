@@ -1,6 +1,6 @@
 # WeSplit
 
-![Screen recording](Resources/Images/screen_recording.gif)
+![Screen recording](Resources/Images/screen.gif)
 
 ### Main topics
 * `Form` usage
