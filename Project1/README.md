@@ -1,5 +1,4 @@
 # WeSplit
-## Project 1
 
 ![Screen recording](Resources/Images/screen_recording.gif)
 
