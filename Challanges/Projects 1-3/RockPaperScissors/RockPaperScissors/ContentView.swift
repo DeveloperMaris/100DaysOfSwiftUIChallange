@@ -32,10 +32,10 @@ struct ContentView: View {
     @State private var score = 0
     @State private var appMoveIndex = Int.random(in: 0...2)
     @State private var shouldWin = Bool.random()
-    @State private var moves = ["Rock", "Paper", "Scissors"]
     @State private var showFinalScore = false
-
     @State private var lastGuessWasCorrect: Bool?
+
+    private let moves = ["Rock", "Paper", "Scissors"]
 
     var body: some View {
         VStack(spacing: 20) {
