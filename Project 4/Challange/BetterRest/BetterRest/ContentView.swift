@@ -78,7 +78,7 @@ struct ContentView: View {
         let components = Calendar.current.dateComponents([.hour, .minute], from: wakeUp)
         let hour = (components.hour ?? 0) * 60 * 60 // in seconds
         let minute = (components.minute ?? 0) * 60 // in seconds
-        
+
         do {
             let prediction = try model.prediction(wake: Double(hour + minute), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount + 1))
 
