@@ -110,6 +110,7 @@ struct Arc: InsettableShape {
 struct ContentView: View {
     var body: some View {
         // Circle()
+        //     .stroke(Color.blue, lineWidth: 40) // Will be half inside the circle and half outside of circle.
         //     .strokeBorder(Color.blue, lineWidth: 40)
         Arc(startAngle: .degrees(-90), endAngle: .degrees(90), clockwise: true)
             .strokeBorder(Color.blue, lineWidth: 40)

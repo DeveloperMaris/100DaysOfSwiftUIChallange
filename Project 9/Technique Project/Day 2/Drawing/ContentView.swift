@@ -10,13 +10,16 @@ import SwiftUI
 
 // MARK: - 4. Transforming shapes using CGAffineTransform and even-odd fills
 
-//// How much to move this petal away from the center
-//var petalOffset: Double = -20
+//struct Flower: Shape {
+//  // Pi = 180 degrees in radians
 //
-//// How wide to make each petal
-//var petalWidth: Double = 100
+//  // How much to move this petal away from the center
+//  var petalOffset: Double = -20
 //
-//func path(in rect: CGRect) -> Path {
+//  // How wide to make each petal
+//  var petalWidth: Double = 100
+//
+//  func path(in rect: CGRect) -> Path {
 //    // The path that will hold all petals
 //    var path = Path()
 //
